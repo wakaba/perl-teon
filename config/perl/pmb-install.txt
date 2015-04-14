@@ -1,0 +1,17 @@
+Scalar::Util~1.41
+Capture::Tiny~0.28
+File::Spec~3.47
+Test::Fatal~0.014
+Filter::Util::Call~1.54
+Algorithm::Diff~1.1903
+Path::Tiny~0.068
+Try::Tiny~0.22
+AnyEvent~7.08
+Term::ANSIColor~4.03
+Exporter::Lite~0.06
+Carp~1.36
+Unicode::UTF8~0.60
+Test::More~1.001014
+Text::Diff~1.41
+Test::Differences~0.63
+Path::Class~0.35
