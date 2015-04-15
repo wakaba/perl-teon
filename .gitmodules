@@ -4,3 +4,6 @@
 [submodule "t_deps/modules/testdataparser"]
 	path = t_deps/modules/testdataparser
 	url = git://github.com/wakaba/testdataparser
+[submodule "t_deps/modules/json-ps"]
+	path = t_deps/modules/json-ps
+	url = git://github.com/wakaba/perl-json-ps
