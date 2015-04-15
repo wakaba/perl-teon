@@ -1,0 +1,93 @@
+=head1 NAME
+
+TEON - A TEON parser and serializer
+
+=head1 SYNOPSIS
+
+  use TEON;
+  $parsed = TEON->parse_bytes ($teon_file);
+  $parsed = TEON->parse_text ($teon_text);
+  warn Dumper $parsed->{scalars};
+  warn Dumper $parsed->{enums};
+  warn Dumper $parsed->{lists};
+  $teon_text = TEON->to_text ($parsed);
+
+=head1 DESCRIPTION
+
+The C<TEON> module is a parser and serializer implementation for the
+TEON data serialization format.
+
+=head1 METHODS
+
+There are following methods:
+
+=over 4
+
+=item $parsed = TEON->parse_bytes ($bytes)
+
+Parse the argument as a TEON file (i.e. a utf-8 encoded byte string
+representation of TEON) and return the result TEON document.
+
+=item $parsed = TEON->parse_text ($chars)
+
+Parse the argument as a TEON text (i.e. a character string
+representation of TEON) and return the result TEON document.
+
+=item $chars = TEON->to_text ($parsed)
+
+Serialize the TEON document specified as the argument into a TEON
+text.
+
+=back
+
+=head1 TEON DOCUMENT
+
+A TEON document is represented as a hash reference in this module.
+The hash has three key/value pairs: C<scalars>, C<enums>, and
+C<lists>.
+
+The C<scalars> value is a hash reference where keys are scalar field
+names and values are corresponding field values.
+
+The C<enums> value is a hash reference where keys are enumeration
+field names and values are corresponding field values, represented as
+hash references where keys are values in the set of the field value
+and values are number C<1>.
+
+The C<lists> value is a hash reference where keys are scalar field
+names and values are corresponding field values, represented as array
+references whose items are values in the list of the field value.
+
+=head1 SPECIFICATION
+
+TEON <https://wakaba.github.io/spec-teon/>.
+
+Unlike the TEON standard, code points can be non-Unicode code points
+allowed by Perl, e.g. U-00110000, in this module.  However, use of
+such code points is not recommended.
+
+The current version of this module does not support reporting of parse
+errors.
+
+=head1 DEPENDENCY
+
+Perl 5.8 or later is required.
+
+If the L<Unicode::UTF8> module is available, it is used to decode
+utf-8 byte sequence in the C<parse_bytes> method.  Otherwise, the
+L<Encode> module (which is a core module) is used instead.
+
+=head1 AUTHOR
+
+Wakaba <wakaba@suikawiki.org>.
+
+This module is developed as part of the TR project.
+
+=head1 LICENSE
+
+Copyright 2015 Wakaba <wakaba@suikawiki.org>.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
