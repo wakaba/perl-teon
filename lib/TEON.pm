@@ -39,6 +39,7 @@ sub parse_text ($$) {
   my $enum_props = {};
   my $list_props = {};
   $text =~ s/\x0D\x0A/\x0A/g;
+  $text =~ tr/\x0D/\x0A/;
   for (split /\x0A/, $text) {
     if (/\A\$([^:]+):(.*)\z/) {
       my ($n, $v) = ($1, $2);
