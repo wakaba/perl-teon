@@ -8,9 +8,8 @@ Algorithm::Diff~1.1903
 Path::Tiny~0.068
 Try::Tiny~0.22
 parent~0.234
-Term::ANSIColor~4.03
 AnyEvent~7.09
-Exporter::Lite~0.06
+Term::ANSIColor~4.03
 Data::Dumper~2.154
 Unicode::UTF8~0.60
 Carp~1.36
