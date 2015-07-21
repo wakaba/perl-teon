@@ -5,7 +5,7 @@ Test::Fatal~0.014
 Encode~2.75
 Filter::Util::Call~1.54
 Algorithm::Diff~1.1903
-Path::Tiny~0.070
+Path::Tiny~0.072
 Try::Tiny~0.22
 parent~0.234
 AnyEvent~7.11
