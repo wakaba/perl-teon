@@ -1,6 +1,6 @@
 Scalar::Util~1.42
 Capture::Tiny~0.30
-File::Spec~3.60
+File::Spec~3.62
 Test::Fatal~0.014
 Encode~2.78
 Filter::Util::Call~1.55
