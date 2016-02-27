@@ -14,6 +14,6 @@ Data::Dumper~2.154
 Unicode::UTF8~0.60
 Carp~1.38
 Test::More~1.001014
-Text::Diff~1.43
+Text::Diff~1.44
 Test::Differences~0.64
 Path::Class~0.36
