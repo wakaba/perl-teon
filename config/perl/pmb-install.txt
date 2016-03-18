@@ -1,4 +1,4 @@
-Scalar::Util~1.43
+Scalar::Util~1.44
 Capture::Tiny~0.36
 Test::Fatal~0.014
 Encode~2.82
