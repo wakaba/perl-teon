@@ -1,7 +1,7 @@
 Scalar::Util~1.44
 Capture::Tiny~0.36
 Test::Fatal~0.014
-Encode~2.82
+Encode~2.83
 Filter::Util::Call~1.55
 Algorithm::Diff~1.1903
 Path::Tiny~0.084
