@@ -1,10 +1,10 @@
 Scalar::Util~1.45
-Capture::Tiny~0.36
+Capture::Tiny~0.40
 Test::Fatal~0.014
 Encode~2.84
 Filter::Util::Call~1.55
 Algorithm::Diff~1.1903
-Path::Tiny~0.090
+Path::Tiny~0.094
 Try::Tiny~0.24
 parent~0.234
 AnyEvent~7.12
