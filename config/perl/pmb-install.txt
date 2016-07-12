@@ -9,7 +9,7 @@ Try::Tiny~0.24
 parent~0.234
 AnyEvent~7.12
 Term::ANSIColor~4.05
-Data::Dumper~2.160
+Data::Dumper~2.161
 Unicode::UTF8~0.60
 Carp~1.38
 Test::More~1.302040
