@@ -4,6 +4,7 @@ Capture::Tiny~0.44
 Carp~1.38
 Data::Dumper~2.161
 Encode~2.86
+ExtUtils::MakeMaker~7.24
 Filter::Util::Call~1.55
 Path::Class~0.37
 Path::Tiny~0.096
