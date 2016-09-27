@@ -4,7 +4,6 @@ Capture::Tiny~0.44
 Carp~1.38
 Data::Dumper~2.161
 Encode~2.86
-ExtUtils::MakeMaker~7.24
 Filter::Util::Call~1.55
 Path::Class~0.37
 Path::Tiny~0.096
@@ -12,7 +11,7 @@ Scalar::Util~1.45
 Term::ANSIColor~4.05
 Test::Differences~0.64
 Test::Fatal~0.014
-Test::More~1.302056
+Test::More~1.302059
 Text::Diff~1.44
 Try::Tiny~0.27
 Unicode::UTF8~0.60
